@@ -43,3 +43,9 @@ Note: To use the Ansible step, you must have an Ansible server with the xMatters
 2. In the **Setup** tab, fill out or drag in the required inputs - `Path to Playbook` (note this must be the absolute path, e.g. /etc/hosts, and `Username`
 3. In the **Run Location** tab, change it to `xMatters agent`, then select the Ansible server
 4. That's it! You now have a step that will run your playbook, note that the step outputs the `Output` of the playbook deployment, the `Exit Code`, and the `Error` if there is one
+
+Here is an example canvas showing a monitoring tool firing to an HTTP trigger to kick off a flow that triggers an Ansible step to query for playbook execution. (Note the step for querying playbook execution is still in develoment.) If remediation has been attempted, then go get the last Git commit details, and the last Jenkins deploy details and finally, trigger an xMatters alert with the Git and Jenkins details. However, if the playbook has not been executed first create a jira issue, then, using the step outlined in this article, fire the playbook. If triggering the remediation failed, then add a comment to the jira ticket for someone to investigate. If the remediation succeeded, add a comment and then close the issue. 
+
+<kbd>
+	<img src="/media/canvas.png">
+</kbd>
