@@ -17,7 +17,7 @@ This document details how to install and use this step.
 * Ansible server with a playbook, and with the xMatters agent installed. For instructions on installing the xMatters agent, see the [xMatters agent help article](https://help.xmatters.com/ondemand/xmodwelcome/xmattersagent/xmatters-agent-topic.htm)
 
 # Files
-* [AnsibleStep.zip](./AnsibleStep.zip) - This is the Communication that holds the Cherwell steps
+* [AnsibleStep.zip](./AnsibleStep.zip) - This is the Workflow that holds the Ansible step for easy importing
 * [run-playbook.js](./run-playbook.js) - This is the script inside the `Run Playbook` step
 
 # Introduction - How it works
