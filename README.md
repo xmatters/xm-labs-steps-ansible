@@ -40,7 +40,7 @@ Note: To use the Ansible step, you must have an Ansible server with the xMatters
 
 ### Run Playbook Step
 1. To use the Run Playbook Step, click and drag it into the flow, then double click the step to edit it
-2. In the **Setup** tab, fill out or drag in the required inputs - `Path to Playbook` (note this must be the absolute path, e.g. /etc/hosts, and `Username`
+2. In the **Setup** tab, fill out or drag in the required inputs - `Path to Playbook` (note this must be the absolute path, e.g. `/etc/ansible/playbooks/playbook.yaml`, and `Username`
 3. In the **Run Location** tab, change it to `xMatters agent`, then select the Ansible server
 4. That's it! You now have a step that will run your playbook, note that the step outputs the `Output` of the playbook deployment, the `Exit Code`, and the `Error` if there is one
 
