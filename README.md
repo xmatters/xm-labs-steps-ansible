@@ -31,8 +31,8 @@ Ansible is a powerful IT automation tool that stresses simplicity and flexibilit
 
 ## xMatters Setup
 1. Download the [AnsibleStep.zip](./AnsibleStep.zip) file onto your local computer
-2. Navigate to the Developer tab of your xMatters instance
-3. Click **Import Plan**, and select the zip file you just downloaded
+2. Navigate to the Workflows tab of your xMatters instance
+3. Click **Import**, and select the zip file you just downloaded
 
 
 ## Usage
